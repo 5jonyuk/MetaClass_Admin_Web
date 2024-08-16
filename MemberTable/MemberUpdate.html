@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/Update.css" />
+    <title>MemberTable Update</title>
+  </head>
+  <body>
+    <h1>MemberTable Update</h1>
+    <form action="MemberUpdate.php" method="post">
+      <fieldset>
+        <legend>데이터를 입력하세요</legend>
+        <label>Email 입력: </label
+        ><input type="text" required name="email" /><br />
+        <label>ID 수정: </label><input type="text" name="id" /><br />
+        <label>이름 수정: </label><input type="text" name="irum" /><br />
+        <label>닉네임 수정: </label><input type="text" name="nickname" /><br />
+        <label>패스워드 수정: </label><input type="text" name="pwd" /><br />
+        <label>가입일자 수정: </label><input type="date" name="regdate" /><br />
+        <div>
+          <label for="usermode">유저모드 수정:</label>
+          <select id="usermode" name="usermode">
+            <option hidden value="M">관리자</option>
+            <option value="T">강사</option>
+            <option value="A">조교</option>
+            <option value="S" selected>학생</option>
+          </select>
+        </div>
+        <input type="submit" value="Update" />
+      </fieldset>
+      <a href="../AdminHome.html">Home</a>
+    </form>
+  </body>
+</html>

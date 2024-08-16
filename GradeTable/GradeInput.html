@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/Input.css" />
+    <title>GradeTable Insert</title>
+  </head>
+  <body>
+    <h1>GradeTable Insert</h1>
+    <form action="GradeInput.php" method="post">
+      <div>
+        <fieldset>
+          <legend>데이터를 입력하세요</legend>
+          <label for="id">ID: </label>
+          <input type="text" required name="id" /><br />
+          <label for="irum">이름: </label>
+          <input type="text" required name="irum" /><br />
+          <label for="game">Game: </label>
+          <input type="number" required name="game" /><br />
+          <label for="chapter">단원시험: </label>
+          <input type="number" required name="chapter" /><br />
+          <label for="mid">중간점수: </label>
+          <input type="number" required name="mid" /><br />
+          <label for="final">최종점수: </label>
+          <input type="number" required name="final" /><br /><br />
+          <button>Insert</button>
+        </fieldset>
+        <a href="../AdminHome.html">Home</a>
+      </div>
+    </form>
+  </body>
+</html>

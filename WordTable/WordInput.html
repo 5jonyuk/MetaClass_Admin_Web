@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/Input.css" />
+    <title>WordTable Insert</title>
+  </head>
+  <body>
+    <h1>WordTable Insert</h1>
+    <form action="WordInput.php" method="post">
+      <div>
+        <fieldset>
+          <legend>데이터를 입력하세요</legend>
+          <label for="id">ID: </label>
+          <input type="text" required name="id" /><br />
+          <label for="kl">KL: </label>
+          <input type="text" required name="kl" /><br />
+          <label for="cl">CL: </label>
+          <input type="text" required name="cl" /><br />
+          <label for="el">EL: </label>
+          <input type="text" required name="el" /><br />
+          <label for="rl">RL: </label>
+          <input type="text" required name="rl" /><br />
+          <label for="regdate">Date: </label>
+          <input type="date" required name="regdate" /><br /><br />
+          <button>Insert</button>
+        </fieldset>
+        <a href="../AdminHome.html">Home</a>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+legend {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="date"],
+input[type="submit"] {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 18px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* 드롭다운 css */
+select {
+  width: calc(100% - 10px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff; /* 포커스 시 테두리 색상 변경 */
+}
+
+/* 옵션 스타일링 */
+select option {
+  background-color: #fff;
+  color: #333;
+}
+
+/* 화살표 아이콘 스타일링 */
+select::-ms-expand {
+  display: none;
+}
+
+select::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox용 화살표 아이콘 스타일링 */
+select option {
+  margin-right: 2px;
+  padding: 5px;
+}
+
+/* IE10+용 화살표 아이콘 스타일링 */
+select::-ms-expand {
+  display: none;
+}
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Firefox에서 화살표 버튼 숨기기 */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

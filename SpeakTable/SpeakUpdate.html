@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/Update.css" />
+    <title>SpeakTable Update</title>
+  </head>
+  <body>
+    <h1>SpeakTable Update</h1>
+    <form action="SpeakUpdate.php" method="post">
+      <fieldset>
+        <legend>데이터를 입력하세요</legend>
+        <label>ID입력: </label><input type="text" required name="id" /><br />
+        <label>KL_Data 수정: </label
+        ><input type="text" required name="kl" /><br />
+        <label>CL_Data 수정: </label
+        ><input type="text" required name="cl" /><br />
+        <label>EL_Data 수정: </label
+        ><input type="text" required name="el" /><br />
+        <label>RL_Data 수정: </label
+        ><input type="text" required name="rl" /><br />
+        <label>수정날짜: </label
+        ><input type="date" required name="u_date" /><br /><br />
+        <input type="submit" value="Update" />
+      </fieldset>
+      <a href="../AdminHome.html">Home</a>
+    </form>
+  </body>
+</html>

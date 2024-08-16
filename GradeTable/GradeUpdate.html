@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/Update.css" />
+    <title>GradeTable Update</title>
+  </head>
+  <body>
+    <h1>GradeTable Update</h1>
+    <form action="GradeUpdate.php" method="post">
+      <fieldset>
+        <legend>데이터를 입력하세요</legend>
+        <label>ID입력: </label><input type="text" required name="id" /><br />
+        <label>이름 수정: </label><input type="text" name="irum" /><br />
+        <label>Game 수정: </label><input type="number" name="game" /><br />
+        <label>단원시험 수정: </label
+        ><input type="number" name="chapter" /><br />
+        <label>중간점수 수정: </label><input type="number" name="mid" /><br />
+        <label>최종점수 수정: </label
+        ><input type="number" name="final" /><br /><br />
+        <input type="submit" value="Update" />
+      </fieldset>
+      <a href="../AdminHome.html">Home</a>
+    </form>
+  </body>
+</html>

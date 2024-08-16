@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+legend {
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 10px; /* 텍스트를 조금 위로 올리기 위한 마진 설정 */
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="submit"] {
+  width: calc(100% - 10px); /* 입력 필드와 버튼의 너비 조정 */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 18px;
+}
+a:hover {
+  text-decoration: underline;
+}

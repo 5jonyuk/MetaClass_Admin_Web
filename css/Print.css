@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+a:hover {
+  background-color: #0056b3;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even):hover,
+tr:hover {
+  background-color: #ddd; /* 호버시 배경색 변경 */
+}
+#page {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f8f9fa;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#page:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+#page-container {
+  text-align: center;
+  margin-top: 20px;
+}
+#page_select {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f8f9fa;
+  color: #333;
+  text-decoration: none;
+  margin-right: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#navigation {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#nav {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f8f9fa;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#nav:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+#nav_selected {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  border: 1px solid #007bff;
+}
